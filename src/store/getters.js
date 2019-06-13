@@ -1,0 +1,20 @@
+const getters = {
+	sidebar: state => state.app.sidebar,
+	device: state => state.app.device,
+	errLog: state => state.errLog.errLog,
+	userInfo: state => state.user.userInfo,
+	token: state => state.user.token,
+	role: state => state.user.role,
+	permission: state => state.user.permission,
+	menu: state => state.user.menu,
+	menuAll: state => state.user.menuAll,
+	website: state => state.common.website,
+	theme: state => state.common.theme,
+	isCollapse: state => state.common.isCollapse,
+	isLock: state => state.common.isLock,
+	isFullScren: state => state.common.isFullScren,
+	lockPasswd: state => state.common.lockPasswd,
+	tablist: state => state.room.tablist,
+	roomCurrent: state => state.room.roomCurrent,
+}
+export default getters
